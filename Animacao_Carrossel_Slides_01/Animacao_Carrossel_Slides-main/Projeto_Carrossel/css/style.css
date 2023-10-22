@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.meusSlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
